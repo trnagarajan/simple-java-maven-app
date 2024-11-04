@@ -18,6 +18,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
+                cd 'C:\ProgramData\Jenkins\.jenkins\workspace\My-Simple-Java-Maven-App\jenkins\scripts'
                 sh 'deliver.sh'
             }
         }
