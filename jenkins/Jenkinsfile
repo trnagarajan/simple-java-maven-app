@@ -18,13 +18,13 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                echo "Inside Deliver Stage. Comment out the below"
+                echo "Inside Deliver Stage. Comment out the below -new pipeline branch"
                /* sh './jenkins/scripts/deliver.sh' */
             }
         }
         stage('Complete') {
             steps {
-                echo "Job Completed Successfully"
+                echo "Job Completed Successfully - new pipeline branch"
             }
         }
     }
