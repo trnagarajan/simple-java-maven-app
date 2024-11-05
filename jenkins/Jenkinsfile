@@ -18,7 +18,8 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                sh './jenkins/scripts/deliver.sh'
+                echo "Inside Deliver Stage. Comment out the below"
+               /* sh './jenkins/scripts/deliver.sh' */
             }
         }
         stage('Complete') {
